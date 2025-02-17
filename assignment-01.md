@@ -16,7 +16,7 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 
     
   - 1b. Is $2^{2^n} \in O(2^n)$? Why or why not?
-  - **The statement is true because the left side and right side are the same expression. Since a function is always within the same class as itself, then the statement is true.**
+  - **The statement is false because the left side grows faster than 2^n.**
     
   
   - 1c. Is $n^{1.01} \in O(\mathrm{log}^2 n)$?    
