@@ -28,11 +28,11 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 
 
   - 1e. Is $\sqrt{n} \in O((\mathrm{log} n)^3)$?
-  - j
+  - **This is false because sqrt(n) grows much faster than (logn)^3, as sqrt(n) is a polynomial function and (logn)^3 is a log function. Since polynomial functions grow faster than log functions for large n, the left side cannot be bounded to the right side.**
 
 
-  - 1f. Is $\sqrt{n} \in \Omega((\mathrm{log} n)^3)$?  
-.  
+  - 1f. Is $\sqrt{n} \in \Omega((\mathrm{log} n)^3)$?
+  - **This is true because omega denotes a lower bound. Since the left side grows faster than the right side, we can say that the left side provides a lower bound to the right side.**
 
 
 2. **SPARC to Python** (12 pts)
