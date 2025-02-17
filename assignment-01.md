@@ -20,18 +20,17 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
     
   
   - 1c. Is $n^{1.01} \in O(\mathrm{log}^2 n)$?
-  - **This is false because n^1.01 grows faster than long^2(n).**
+  - **This is false because n^1.01 grows faster than long^2(n).A polynomial function like n^1.01 grow much faster than log functions for large n.**
   
 
   - 1d. Is $n^{1.01} \in \Omega(\mathrm{log}^2 n)$?
-  - **This is true because n^1.01 grows faster than log^2(n), and therefore provides a lower bound.**
+  - **This is true because n^1.01 grows faster than log^2(n), and therefore provides a lower bound. Since n^1.01 grows much faster than log^2(n), we can say that n^1.01 provides a lower bound to log^2 n as n grows larger.**
 
 
-  - 1e. Is $\sqrt{n} \in O((\mathrm{log} n)^3)$?  
-.  
-.  
-.  
-.  
+  - 1e. Is $\sqrt{n} \in O((\mathrm{log} n)^3)$?
+  - j
+
+
   - 1f. Is $\sqrt{n} \in \Omega((\mathrm{log} n)^3)$?  
 .  
 
