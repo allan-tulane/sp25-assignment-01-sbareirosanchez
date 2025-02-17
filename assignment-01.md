@@ -11,17 +11,14 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 
 1. (2 pts ea) **Asymptotic notation** (12 pts)
 
-  - 1a. Is $2^{n+1} \in O(2^n)$? Why or why not? 
-
-- **The statement is true because 2^n+1 is equal to 2*2^n. In Big-O notation we're concerned with how functions grow as n becomes larger. Since both of them grow at the same rate, then 2^n+1 is just a constant multiple of 2^n.**
+  - 1a. Is $2^{n+1} \in O(2^n)$? Why or why not?
+  - **The statement is true because 2^n+1 is equal to 2*2^n. In Big-O notation we're concerned with how functions grow as n becomes larger. Since both of them grow at the same rate, then 2^n+1 is just a constant multiple of 2^n.**
 
     
-  - 1b. Is $2^{2^n} \in O(2^n)$? Why or why not?     
-.  
-.  
-.  
-.  
-.  
+  - 1b. Is $2^{2^n} \in O(2^n)$? Why or why not?
+  - **The statement is true because the left side and right side are the same expression. Since a function is always within the same class as itself, then the statement is true.**
+    
+  
   - 1c. Is $n^{1.01} \in O(\mathrm{log}^2 n)$?    
 .  
 .  
