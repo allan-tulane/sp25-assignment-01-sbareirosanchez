@@ -19,17 +19,14 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
   - **The statement is false because the left side grows faster than 2^n.**
     
   
-  - 1c. Is $n^{1.01} \in O(\mathrm{log}^2 n)$?    
-.  
-.  
-.  
-.  
+  - 1c. Is $n^{1.01} \in O(\mathrm{log}^2 n)$?
+  - **This is false because n^1.01 grows faster than long^2(n).**
+  
 
-  - 1d. Is $n^{1.01} \in \Omega(\mathrm{log}^2 n)$?  
-.  
-.  
-.  
-.  
+  - 1d. Is $n^{1.01} \in \Omega(\mathrm{log}^2 n)$?
+  - **This is true because n^1.01 grows faster than log^2(n), and therefore provides a lower bound.**
+
+
   - 1e. Is $\sqrt{n} \in O((\mathrm{log} n)^3)$?  
 .  
 .  
