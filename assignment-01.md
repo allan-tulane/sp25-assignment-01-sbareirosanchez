@@ -53,7 +53,7 @@ $$
   - 2a. (6 pts) Translate this to Python code -- fill in the `def foo` method in `main.py`  
 
   - 2b. (6 pts) What does this function do, in your own words?
-- **The function foo(x) calculates the x-th Fibonacci number. It does so by recursively calling itself to compute the sum of the two preceding Fibonacci numbers, until it reaches the base case of x=0 or x=1. **
+- The function foo(x) calculates the x-th Fibonacci number. It does so by recursively calling itself to compute the sum of the two preceding Fibonacci numbers, until it reaches the base case of x=0 or x=1.
   
 
 3. **Parallelism and recursion** (26 pts)
@@ -74,17 +74,9 @@ E.g., `longest_run([2,12,12,8,12,12,12,0,12,1], 12) == 3`
  
   - 3a. (7 pts) First, implement an iterative, sequential version of `longest_run` in `main.py`.  
 
-  - 3b. (4 pts) What is the Work and Span of this implementation?  
-
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
+  - 3b. (4 pts) What is the Work and Span of this implementation?
+- The work is the total number of operations performed. Since we are iterating through the array once, the work is porportional to the size of the array, which is O(n), where n is the length of the array.
+- The span is the longest chain of dependent operations. Since this function only uses a single loop and no nested operations, there are no parallel dependencies. The span is constant, or O(1). 
 
 
   - 3c. (7 pts) Next, implement a `longest_run_recursive`, a recursive, divide and conquer implementation. This is analogous to our implementation of `sum_list_recursive`. To do so, you will need to think about how to combine partial solutions from each recursive call. Make use of the provided class `Result`.   
