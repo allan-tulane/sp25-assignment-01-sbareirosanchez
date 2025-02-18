@@ -53,8 +53,7 @@ $$
   - 2a. (6 pts) Translate this to Python code -- fill in the `def foo` method in `main.py`  
 
   - 2b. (6 pts) What does this function do, in your own words?
-- **The function foo(x) calculates the x-th Fibonacci number. It does so by recursively calling itself to compute the sum of the two preceding Fibonacci numbers,
-until it reaches the base case of x=0 or x=1. **
+- **The function foo(x) calculates the x-th Fibonacci number. It does so by recursively calling itself to compute the sum of the two preceding Fibonacci numbers, until it reaches the base case of x=0 or x=1. **
   
 
 3. **Parallelism and recursion** (26 pts)
